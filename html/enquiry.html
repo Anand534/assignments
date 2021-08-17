@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--#10 login form-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>enquiry</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-image: url(retrosupply-jLwVAUtLOAQ-unsplash.jpg);
+            background-size: cover;
+        }
+        .container{
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+        }
+        .card{
+            padding:60px 40px 50px 40px;
+            background:rgb(50,50,50);
+            border-radius: 10px;
+
+        }
+        #name{
+            border: none;
+            width: 350px;
+            background: transparent;
+            border-bottom: 1px solid white;
+            padding: 6px;
+            margin-bottom: 20px;
+            color:whitesmoke;
+        }
+        #name2{
+            border: 1px solid white;
+            width: 350px;
+            background: transparent;
+            padding: 6px;
+            margin-bottom: 20px;
+            color:whitesmoke; 
+            border-radius: 10px;
+            height: 100px;
+            font-style: italic;
+            text-align: start;
+            max-lines: 300;
+        }
+        #button{
+            border-radius: 10px;
+            color: white;
+            background: blue;
+            padding:10px 20px;
+            border: none;
+            outline: none;
+            margin-top: 20px;
+            margin-left: 60px;
+        }
+        img{
+            border-radius: 50%;
+            position: absolute;
+            margin-left: 160px;
+            margin-top: -40px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="icons8-login-as-user-80.png" alt="user" width="90" height="90">
+        <div class="card">
+            <form method="post" enctype="multipart/form-data">
+                <h2 align="center" style="color: whitesmoke;">Equiry form</h2>
+                <input type="text"placeholder="Username" required id="name"><br>
+                <input type="email" placeholder="E-mail" required id="name"><br>
+                <input type="number" placeholder="Bill number" required id="name"><br>
+                <input type="text" placeholder="Ask your Question" id="name2"><br>
+                <input type="submit" value="SUBMIT" id="button">
+                <input type="reset" value="RESET" id="button">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+</div>

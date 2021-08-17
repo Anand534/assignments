@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--#8 login form-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>application</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-image: url(retrosupply-jLwVAUtLOAQ-unsplash.jpg);
+            background-size: cover;
+        }
+        .container{
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+        }
+        .card{
+            padding:60px 40px 50px 40px;
+            background:rgb(50,50,50);
+            border-radius: 10px;
+            margin-top: 200px;
+            height: 700px;
+        }
+        #name{
+            border: none;
+            width: 340px;
+            background: transparent;
+            border: 1px solid white;
+            padding: 6px;
+            margin-bottom: 20px;
+            color:whitesmoke;
+            border-radius: 10px;
+        }
+        #button{
+            border-radius: 30px;
+            color: white;
+            background: blue;
+            padding:10px 30px;
+            border: none;
+            outline: none;
+            margin-top: 20px;
+            margin-left: 240px;
+        }
+        #name2{
+            border: none;
+            width: 100px;
+            background: transparent;
+            border: 1px solid white;
+            padding: 6px;
+            margin-bottom: 20px;
+            color:whitesmoke;
+            border-radius: 10px;
+        }
+        #name3{
+            border: none;
+            width: 100px;
+            background: transparent;
+            border: 1px solid white;
+            padding: 6px;
+            margin-bottom: 20px;
+            color:whitesmoke;
+            border-radius: 10px;
+        }         
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2 style="margin-top: -40px;color: whitesmoke;">Name changing application form</h2><hr>
+            <form method="post" enctype="multipart/form-data">
+                <input type="text" placeholder="First name*" required id="name2">
+                <input type="text" placeholder="Middle name" id="name2">
+                <input type="text" placeholder="Last name*" required id="name2"><br>
+                <input type="email" placeholder="E-mail*" required id="name"><br>
+                <input type="tel" placeholder="Mobile number*" required id="name"><br>
+                <input type="text" placeholder="Address Line 1*" required id="name"><br>
+                <input type="text" placeholder="Address Line 2*" required id="name"><br>
+                <input type="text" placeholder="city*" required id="name"><br>
+                <input type="text" placeholder="State*" required id="name"><br>
+                <p style="color: rgb(141, 141, 141);">D.O.B:</p>
+                <input type="date" placeholder="D.O.B*" required id="name"><br>
+                <p style="color: rgb(141, 141, 141);">What are the supporting documents are you providing?* <br>
+                <input type="radio" name="proof" checked>Marriage certificate <br>
+                <input type="radio" name="proof">Divorce certificate <br>
+                <input type="radio" name="proof">Others <br><br>
+                How will you like your name to appear in official documents?</p><br>
+                <input type="text" placeholder="First name*" required id="name3">
+                <input type="text" placeholder="Middle name" id="name3">
+                <input type="text" placeholder="Last name*" required id="name3"><br>
+                <input type="submit" value="SUBMIT" id="button">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+</div>

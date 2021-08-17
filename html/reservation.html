@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--#14 login form-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reservaton</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-image: url(retrosupply-jLwVAUtLOAQ-unsplash.jpg);
+            background-size: cover;
+        }
+        .container{
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+        }
+        .card{
+            padding:60px 40px 50px 40px;
+            background:rgb(50,50,50);
+            border-radius: 10px;
+            color: rgb(143, 140, 140);
+
+        }
+        #name{
+            border: none;
+            width: 260px;
+            background: transparent;
+            border-bottom: 1px solid white;
+            padding: 6px;
+            margin-bottom: 20px;
+            color:whitesmoke;
+            position:static;
+        }
+        #button{
+            border-radius: 10px;
+            color: white;
+            background: blue;
+            padding:10px 160px;
+            border: none;
+            outline: none;
+            margin-top: 20px;
+            margin-left: 100px;
+        }
+        #name1{
+            border: none;
+            width: 375px;
+            background: transparent;
+            border-bottom: 1px solid white;
+            padding: 6px;
+            margin-bottom: 20px;
+            color:whitesmoke;  
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="card">
+            <form method="post" enctype="multipart/form-data">
+                <h1 align="center">Hotel paradise</h1><br><br>
+                <input type="text" placeholder="First name*" required id="name">
+                <input type="text" placeholder="Last name" id="name"><br>
+                <input type="text" placeholder="Address 1*" required id="name">
+                <input type="text" placeholder="Address 2"  id="name"><br>
+                <input type="email" placeholder="E-mail*" required id="name">
+                <input type="tel" placeholder="Mobile number*" required id="name"><br>
+                <input type="text" placeholder="City*" required id="name">
+                <input type="text" placeholder="Zip code*" required id="name"><br>
+                checked in date & time *<input type="datetime-local" required id="name"><br>
+                checked out date & time*<input type="datetime-local" required id="name"><br>
+                Room preference* <input type="radio" name="members" checked>standard
+                <input type="radio" name="members">suite
+                <input type="radio" name="members">Deluxe
+                <input type="submit" value="SUBMIT" id="button">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+</div>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--#12 login form-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-image: url(retrosupply-jLwVAUtLOAQ-unsplash.jpg);
+            background-size: cover;
+        }
+        .container{
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+        }
+        .card{
+            padding:60px 40px 50px 40px;
+            background:rgb(50,50,50);
+            border-radius: 10px;
+            color: rgb(143, 140, 140);
+
+        }
+        #name{
+            width: 150px;
+            background: transparent;
+            border-bottom: 1px solid white;
+            padding: 6px;
+            margin-bottom: 20px;
+            margin-left: 0px;
+            color:whitesmoke;
+        }
+        #button{
+            border-radius: 10px;
+            color: white;
+            background:rgb(46, 173, 21);
+            padding:10px 100px;
+            border: none;
+            outline: none;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+                
+        #name1{
+            width: 375px;
+            background: transparent;
+            border-bottom: 1px solid white;
+            padding: 6px;
+            margin-bottom: 20px;
+            color:whitesmoke;  
+        }
+        img{
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="card">
+            <form method="post" enctype="multipart/form-data">
+                <h1 align="center">Payment details</h1><br>
+                <img src="cardpic.PNG" alt="cards" align="center" width="350px"><br><br>
+                <input type="number" placeholder="Valied card number" required id="name1"><br>
+                <input type="month" placeholder="MM/YY" required id="name">
+                <input type="number" placeholder="ccv" required id="name"><br>
+                <input type="text" placeholder="Card owner name" id="name1"><br>
+                <input type="submit" value="Confirm payment" id="button">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+</div>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--#15 login form-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>volunteer</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-image: url(retrosupply-jLwVAUtLOAQ-unsplash.jpg);
+            background-size: cover;
+        }
+        .container{
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+        }
+        .card{
+            padding:60px 40px 50px 40px;
+            background:rgb(209, 209, 209);
+            border-radius: 10px;
+            color: black;
+
+        }
+        #name{
+            width: 180px;
+            background: transparent;
+            border-bottom: 1px solid white;
+            padding: 6px;
+            margin-bottom: 20px;
+            color:whitesmoke;
+            border-radius: 10px;
+        }
+        #button{
+            border-radius: 10px;
+            color: white;
+            background: blue;
+            padding:10px 160px;
+            border: none;
+            outline: none;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        #name1{
+            width: 375px;
+            background: transparent;
+            border-bottom: 1px solid white;
+            padding: 6px;
+            margin-bottom: 20px;
+            color:rgb(141, 141, 141); 
+            border-radius: 10px; 
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="card">
+            <form method="post" enctype="multipart/form-data">
+                <h1 align="center">ACQUIOS</h1><br><br>
+                <input type="text" placeholder="First name" required id="name">
+                <input type="text" placeholder="Last name" required id="name"><br>
+                <input type="email" placeholder="E-mail" required id="name1"><br>
+                <input type="password" placeholder="Password" required id="name1"><br>
+                <input type="text" placeholder="Organization Name" id="name1"><br>
+                <select id="name1">
+                    <option>Organization size</option>
+                </select><br>
+                <select id="name1">
+                    <option>--Industry--</option>
+                </select><br>
+                <input type="submit" value="SUBMIT" id="button">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+</div>
